@@ -1,0 +1,99 @@
+/*---------------------------
+----- Estilos Globales ------
+---------------------------*/
+
+* {
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+main {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  transition: 0.25s all ease-in-out;
+}
+
+footer {
+  align-self: flex-end;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: #4e73df;
+  transition: 0.25s all ease-in-out;
+}
+
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: grey;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --clr-bkgd-1: #eaad00;
+  --clr-bkgd-2: #01bfcb;
+  --clr-bkgd-3: #ffc501;
+  --clr-text-1: #ffffff;
+  --clr-text-2: #333439;
+  --clr-shdw-1: #ffffff4d;
+  --clr-shdw-2: #0000004d;
+  --clr-shdw-3: #00000012;
+  --clr-btn-1: #7fc80e;
+}
+
+/*---------------------------
+---------- Header -----------
+---------------------------*/
+
+.container-1 {
+  padding: 40px;
+  background-color: #01bfcb;
+  border-radius: 15px;
+  border: 2px solid #333439;
+}
+
+.container-2 {
+  padding: 40px;
+  background-color: #7fc80e;
+  border-radius: 15px;
+  border: 2px solid #333439;
+}
+
+.button {
+  padding: 15px;
+  border: 2px solid #333439;
+  border-radius: 15px;
+}
+
+.texto {
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #333439;
+  outline: none;
+}

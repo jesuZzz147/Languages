@@ -1,0 +1,112 @@
+/*---------------------------
+----- Estilos Globales ------
+---------------------------*/
+
+* {
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  transition: 0.25s all ease-in-out;
+}
+
+footer {
+  align-self: flex-end;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: #4e73df;
+  transition: 0.25s all ease-in-out;
+}
+
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: grey;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --clr-bkgd-1: #eaad00;
+  --clr-bkgd-2: #01bfcb;
+  --clr-bkgd-3: #ffc501;
+  --clr-text-1: #ffffff;
+  --clr-text-2: #333439;
+  --clr-shdw-1: #ffffff4d;
+  --clr-shdw-2: #0000004d;
+  --clr-shdw-3: #00000012;
+  --clr-btn-1: #7fc80e;
+}
+
+/*---------------------------
+---------- Header -----------
+---------------------------*/
+
+form {
+  background-color: #000000;
+  width: 70%;
+  border: 5px solid #333439;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 1rem 0;
+}
+
+input[type="submit"]{
+  width: 55%;
+  margin-left: 30.75%;
+}
+
+input {
+  width: 85%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  outline: none;
+}
+
+div {
+  color: #ffffff;
+}
+
+.green {
+  color: #99cca2;
+}
+
+.red {
+  color: #cc9999;
+}

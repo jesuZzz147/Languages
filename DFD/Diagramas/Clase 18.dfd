@@ -1,0 +1,94 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+4
+moto
+2
+''
+6
+precio
+1
+0
+4
+1
+29
+'Ingrese la marca de la moto'
+5
+1
+4
+moto
+4
+1
+30
+'Ingrese el precio de la moto'
+5
+1
+6
+precio
+7
+0
+1
+15
+moto = 'suzuki'
+7
+0
+1
+15
+moto = 'yamaha'
+7
+0
+1
+14
+moto = 'honda'
+6
+1
+5
+total
+11
+precio*0.98
+4
+1
+47
+'El total de la moto ',moto,' es de ',total,'$'
+13
+6
+1
+5
+total
+11
+precio*0.95
+4
+1
+44
+'El total de la moto Honda es de ',total,'$'
+13
+13
+6
+1
+5
+total
+11
+precio*0.92
+4
+1
+45
+'El total de la moto Yamaha es de ',total,'$'
+13
+13
+6
+1
+5
+total
+11
+precio*0.90
+4
+1
+45
+'El total de la moto Suzuki es de ',total,'$'
+13
+1

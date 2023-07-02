@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+X
+1
+0
+1
+Y
+1
+0
+1
+Z
+2
+''
+4
+1
+37
+'Digite el valor de un numero entero'
+5
+1
+1
+X
+4
+1
+23
+'Digite un numero real'
+5
+1
+1
+Y
+4
+1
+20
+'Digite una palabra'
+5
+1
+1
+Z
+4
+1
+72
+'El valor de X es: ',X,', El valor de Y es: ',Y,', El valor de Z es: ',Z
+1

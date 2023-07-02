@@ -1,0 +1,51 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+5
+horas
+1
+0
+5
+valor
+1
+0
+4
+1
+37
+'Ingrese el tiempo de hora trabajado'
+5
+1
+5
+horas
+4
+1
+28
+'Ahora la cantidad por hora'
+5
+1
+5
+valor
+6
+3
+3
+dia
+11
+horas*valor
+3
+mes
+19
+(horas*valor)*30.42
+4
+mes2
+18
+(horas*valor)*25.5
+4
+1
+168
+'Paga diaria es de ',dia,', si trabajas asi por un mes todos los dias tu paga sera de ',mes,' y si trabajas asi durante un mes 6 dias a la semana tu paga sera de ',mes2
+1

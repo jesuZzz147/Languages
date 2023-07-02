@@ -1,0 +1,38 @@
+/* Selector Universal */
+* :hover{
+    color: rgb(49, 42, 228);
+}
+/* Selector de Tipo */
+h2 {
+    color:darkred;
+}
+/* Selector de Clase */
+.titulo-h1 {
+     color:greenyellow;
+}
+/* Selector por ID */
+#parrafo {
+    color:seagreen;
+}
+/* Selector por Atributo*/
+[Epico="Siloes"] :hover{
+    border-color: chartreuse;
+}
+/* Selector por pseudoclase*/
+h2 :hover{
+    color:black !important;
+}
+/* Selector por Descendiente */
+p b {
+    color:blueviolet;
+}
+
+/*Jerarquia de Selectores
+!important
+    Estilos de linea (Style)
+        Identificadores
+            Clases
+            Pseudo-Clases
+            Atributos
+                Elementos
+                Pseudo-elementos*/

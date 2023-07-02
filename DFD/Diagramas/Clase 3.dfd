@@ -1,0 +1,31 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+2
+c1
+1
+0
+4
+1
+129
+'Este es un programa para calcular longitudes de circunferencias, a continuacion ingrese el valor del radio de la circunferencia'
+5
+1
+2
+c1
+6
+1
+4
+long
+11
+2*3.1416*c1
+4
+1
+44
+'La longitud de la circunferencia es: ',long
+1

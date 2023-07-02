@@ -1,0 +1,255 @@
+/*---------------------------
+----- Estilos Globales ------
+---------------------------*/
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  transition: 0.25s all ease-in-out;
+  color: #000000;
+}
+
+footer {
+  align-self: flex-end;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: #4e73df;
+  transition: 0.25s all ease-in-out;
+}
+
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: grey;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --clr-bkgd-1: #ffffff;
+  --clr-bkgd-2: #f2f2f2;
+  --clr-bkgd-3: #007af3;
+  --clr-text-1: #ffffff;
+  --clr-text-2: #000000;
+  --clr-text-3: #007af3;
+  --clr-shdw-1: #ffffff4d;
+  --clr-shdw-2: #0000004d;
+  --clr-shdw-3: #00000012;
+  --clr-btn-1: #7fc80e;
+}
+
+/*---------------------------
+---------- Header -----------
+---------------------------*/
+
+.header {
+  max-width: 100vw;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: clamp(0.25rem, 13rem, 14.5rem);
+  padding-right: clamp(0.25rem, 13rem, 14.5rem);
+  background-color: var(--clr-bkgd-1);
+}
+
+.nav {
+  width: 100%;
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*--------- Logo ---------*/
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  color: var(--clr-text-2);
+}
+
+.logo span {
+  color: var(--clr-text-3);
+  transition: 0.25s all ease-in-out;
+}
+
+.logo span:hover,
+.logo:hover {
+  color: var(--clr-text-2);
+}
+
+/*------ Nav Buttons ------*/
+
+.primary-nav,
+.secondary-nav {
+  display: inherit;
+}
+
+.primary-nav li,
+.secondary-nav li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.primary-nav li a {
+  font-size: 1rem;
+  transition: 0.25s all ease-in-out;
+}
+
+.primary-nav li:nth-child(1) {
+  font-weight: bold;
+}
+
+.primary-nav li a:hover {
+  font-weight: bold;
+}
+
+.secondary-nav li a {
+  font-size: 1rem;
+  transition: 0.25s all ease-in-out;
+}
+
+.secondary-nav li a:hover {
+  font-weight: bold;
+}
+
+.premium-btn {
+  color: var(--clr-text-3);
+  border: 0.2rem solid var(--clr-text-3);
+  border-radius: 5rem;
+  margin-top: -0.2rem;
+  font-weight: bold;
+  padding: 0.35rem 1rem;
+}
+
+.premium-btn:hover {
+  background-color: var(--clr-bkgd-3);
+  color: var(--clr-text-1);
+}
+
+.mobile-exit,
+.mobile-open {
+  display: none;
+}
+
+/*---------------------------
+----------- Hero ------------
+---------------------------*/
+.hero {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--clr-bkgd-2);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-left-column {
+  width: 540px;
+  text-align: left;
+}
+
+.hero-left-column h1 {
+  font-size: 3.25rem;
+  width: 80%;
+  color: var(--clr-text-2);
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.subhead {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #727272;
+  font-weight: bold;
+}
+
+.hero-cta {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+.primary-cta {
+  background-color: var(--clr-bkgd-3);
+  color: var(--clr-text-1);
+  border: 0.2rem solid var(--clr-text-3);
+  border-radius: 5rem;
+  margin-top: -0.2rem;
+  padding: 0.7rem 1.75rem;
+  font-weight: bold;
+  margin-right: 1.75rem;
+  transition: 0.25s all ease-in-out;
+}
+
+.primary-cta:hover {
+  background-color: var(--clr-bkgd-2);
+  color: var(--clr-text-3);
+}
+
+.watch-video-cta {
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+
+.watch-video-cta:hover {
+  color: var(--clr-text-3);
+  text-decoration: underline;
+}
+
+.hero-img {
+  width: clamp(280px, 100%, 320px);
+  margin-right: 100px;
+}
+
+/*---------------------------
+----- Features Section ------
+---------------------------*/
+.features-section {
+  min-height: 100vh;
+  width: 100vw;
+}

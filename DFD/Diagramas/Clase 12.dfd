@@ -1,0 +1,88 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+2
+n1
+1
+0
+2
+n2
+1
+0
+2
+n3
+1
+0
+4
+1
+22
+'Ingrese tres numeroa'
+5
+1
+8
+n1,n2,n3
+7
+0
+1
+8
+n1 >= n2
+7
+0
+1
+8
+n2 >= n3
+4
+1
+39
+'El orden es este ',n3,', ',n2,' y ',n1
+13
+7
+0
+1
+8
+n1 >= n3
+4
+1
+39
+'El orden es este ',n2,', ',n3,' y ',n1
+13
+4
+1
+39
+'El orden es este ',n2,', ',n1,' y ',n3
+13
+13
+13
+7
+1
+1
+8
+n1 >= n3
+7
+0
+1
+8
+n2 >= n3
+4
+1
+39
+'El orden es este ',n1,', ',n3,' y ',n2
+13
+4
+1
+39
+'El orden es este ',n1,', ',n2,' y ',n3
+13
+13
+4
+1
+39
+'El orden es este ',n3,', ',n1,' y ',n2
+13
+13
+1

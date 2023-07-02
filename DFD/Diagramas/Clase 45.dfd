@@ -1,0 +1,159 @@
+ Dfd (c)
+1
+1
+2
+0
+0
+6
+3
+2
+n1
+1
+0
+2
+n2
+1
+0
+2
+n3
+1
+0
+4
+1
+21
+'Digite tres numeros'
+5
+1
+8
+n1,n2,n3
+12
+1
+4
+indi
+1
+8
+n1,n2,n3
+1
+2
+1
+4
+indi
+1
+8
+n1,n2,n3
+0
+7
+0
+1
+7
+n1 = n2
+7
+0
+1
+7
+n2 = n3
+7
+0
+1
+7
+n1 = n3
+7
+0
+1
+7
+n1 < n2
+7
+0
+1
+7
+n2 < n3
+4
+1
+26
+n3,' es el menor de todos'
+13
+4
+1
+26
+n2,' es el menor de todos'
+13
+13
+7
+0
+1
+7
+n1 < n3
+4
+1
+26
+n3,' es el menor de todos'
+13
+4
+1
+26
+n1,' es el menor de todos'
+13
+13
+13
+7
+0
+1
+7
+n1 < n2
+4
+1
+26
+n2,' es el menor de todos'
+13
+4
+1
+34
+n1,' y ',n3,' son menores que ',n2
+13
+13
+13
+7
+0
+1
+7
+n1 < n3
+4
+1
+34
+n2,' y ',n3,' son menores que ',n1
+13
+4
+1
+26
+n1,' es el menor de todos'
+13
+13
+13
+7
+0
+1
+7
+n1 = n3
+7
+0
+1
+7
+n1 < n3
+4
+1
+26
+n3,' es el menor de todos'
+13
+4
+1
+34
+n2,' y ',n1,' son menores que ',n3
+13
+13
+4
+1
+31
+'Todos los numeros son iguales'
+13
+13
+3

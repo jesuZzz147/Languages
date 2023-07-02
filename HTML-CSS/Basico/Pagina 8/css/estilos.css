@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form__text--active {
+    margin: 5%;
+    color: blue;
+}
+
+.contact-form__text:first-child {
+    color: green;
+    margin: 5%;
+}
+
+.contact-form__text,
+.contact-form__text:hover,
+.contact-form__text--active:hover {
+    color: red;
+    transition: .2s all ease-in-out;
+    margin: 5%;
+}
+
+.main-text {
+    font-size: 16px;
+}
+
+.main-text__title {
+    font-size: 5em;
+    color: black;
+    background-color:cornflowerblue;
+    width: 100vw;
+}
+
+.lorem {
+    background-color: red;
+    color: white;
+    font-size: 1.3em;
+    width: 50vw;
+    padding: 100px;
+    text-align: center;
+    margin: 30px 35px;
+    border-radius: 1.75em;
+    box-shadow: 15px 7.5px 10px 2px black;
+    text-shadow: 7px 7px 15px black,  7px 7px 15px black,  7px 7px 15px black ;
+}

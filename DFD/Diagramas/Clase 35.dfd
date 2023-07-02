@@ -1,0 +1,56 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+4
+suma
+1
+0
+2
+n1
+1
+0
+6
+1
+6
+conteo
+1
+1
+4
+1
+101
+'Digite los numeros a los que se les va a sacar la media aritmetica, para completar solo escriba "0"'
+9
+1
+6
+n1 = 0
+5
+1
+2
+n1
+6
+2
+4
+suma
+9
+suma + n1
+6
+conteo
+10
+conteo + 1
+11
+6
+1
+5
+media
+13
+suma / conteo
+4
+1
+32
+'La media aritmetica es: ',media
+1

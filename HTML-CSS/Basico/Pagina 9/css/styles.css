@@ -1,0 +1,62 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form__text1 {
+    margin: 1% 0.75%;
+    background-color: red;
+    outline: 0.3em solid red;
+    position: relative;
+    left: 4.5em;
+    top: 1em;
+}
+
+.contact-form__text2 {
+    margin: 1% 0.75%;
+    background-color: rgb(255, 238, 0);
+    outline: 0.3em solid rgb(255, 238, 0);
+    z-index: 1;
+}
+
+.contact-form__text3 {
+    margin: 1% 0.75%;
+    background-color: rgb(0, 255, 13);
+    outline: 0.3em solid rgb(0, 255, 13);
+    position: absolute;
+    top: 35px;
+    left: 375px;
+}
+
+.contact-form__text4 {
+    margin: 1% 0.75%;
+    background-color: rgb(0, 255, 255) ;
+    outline: 0.3em solid rgb(0, 255, 255);
+    position: fixed;
+    top: 10vh;
+}
+
+.contact-form__text5 {
+    margin: 1% 0.75%;
+    outline: 0.3em solid rgb(54, 73, 247);
+    position: sticky;
+    top: 0;
+}
+
+.main-text {
+
+    display: flex;
+    max-width: 65vw;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text p {
+    font-size: 1.5em;
+}

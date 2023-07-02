@@ -1,0 +1,48 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+8
+cantidad
+1
+0
+4
+1
+31
+'Ingrese el total de su compra'
+5
+1
+8
+cantidad
+7
+0
+1
+16
+cantidad >= 1001
+6
+1
+5
+total
+8
+cantidad
+4
+1
+63
+'El total de compra es de ',total,', esta vez no hay descuento'
+13
+6
+1
+5
+total
+13
+cantidad*0.80
+4
+1
+33
+'El total de compra es de ',total
+13
+1

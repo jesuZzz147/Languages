@@ -1,0 +1,62 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-form{
+    padding: 1.75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-form div {
+    width: 200px;
+    height: 200px;
+    padding: 1.75vw;
+}
+
+.contact-form__text1 {
+    background-color: #EB3616;
+    position: fixed;
+    top: 0;
+    left: -200px;
+}
+.contact-form:hover > .contact-form__text1 {
+    animation: desplazar 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes desplazar {
+    0% {
+        left: -200px;
+    }
+
+    100%{
+        left: 0
+    }
+
+}
+
+.contact-form__text2 {
+    background-color: #EBB416;
+}
+
+.contact-form__text3 {
+    background-color: #71DF03;
+}
+
+.contact-form__text4 {
+    background-color: #1BEE48;
+}
+
+.contact-form__text5 {
+    background-color: #1BEEDB;
+}
+
+.contact-form__text6 {
+    background-color: #4E65F7;
+}
+
+.contact-form__text7 {
+    background-color: #A54EF7;
+}

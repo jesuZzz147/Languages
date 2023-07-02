@@ -1,0 +1,67 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+6
+numero
+1
+0
+6
+conteo
+1
+0
+4
+1
+18
+'Digite un numero'
+5
+1
+6
+numero
+8
+1
+1
+i
+1
+1
+1
+1
+6
+numero
+1
+1
+1
+7
+0
+1
+16
+numero mod i = 0
+13
+6
+1
+6
+conteo
+10
+conteo + i
+13
+10
+7
+0
+1
+10
+conteo > 2
+4
+1
+34
+'El numero ',numero,' SI es PRIMO'
+13
+4
+1
+34
+'El numero ',numero,' NO es PRIMO'
+13
+1

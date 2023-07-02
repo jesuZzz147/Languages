@@ -1,0 +1,55 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+2
+n1
+1
+0
+2
+n2
+1
+0
+2
+n3
+1
+0
+4
+1
+19
+'Ingrese un numero'
+5
+1
+2
+n1
+4
+1
+22
+'Ingrese un 2° numero'
+5
+1
+2
+n2
+4
+1
+15
+'Ingrese un 3°'
+5
+1
+2
+n3
+6
+1
+5
+media
+20
+sqrt((n1)*(n2)*(n3))
+4
+1
+32
+'La media aritmetica es: ',media
+1

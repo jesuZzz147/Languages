@@ -1,0 +1,66 @@
+ Dfd (c)
+1
+1
+2
+0
+0
+6
+3
+2
+n1
+1
+0
+2
+n2
+1
+0
+2
+n3
+1
+0
+4
+1
+19
+'Digite tres notas'
+5
+1
+8
+n1,n2,n3
+12
+1
+4
+lima
+1
+8
+n1,n2,n3
+1
+2
+1
+4
+lima
+1
+8
+n1,n2,n3
+0
+6
+1
+8
+promedio
+16
+(n1 + n2 + n3)/3
+7
+0
+1
+16
+promedio >= 10.5
+4
+1
+27
+'Mejore la nota ',promedio 
+13
+4
+1
+20
+'Aprobado ',promedio
+13
+3
